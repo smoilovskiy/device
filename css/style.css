@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "gilroy";
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("gilroy"),
+       url("/fonts/gilroylight.woff2") format("woff2"),
+       url("/fonts/gilroylight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "gilroy";
+  font-style: bold;
+  font-weight: 700;
+
+  src: local("gilroy"),
+       url("/fonts/gilroyextrabold.woff2") format("woff2"),
+       url("/fonts/gilroyextrabold.woff") format("woff");
+}
+
+
+body {
+  font-family: "gilroy", "Arial", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  margin: 40px auto;
+  width: 1160px;
+  height: 226px;
+  background-color: #f7e296;
+}
+
+.header-logo {
+  padding-left: 63px;
+  margin-top: -17px;
+}
+
+.header__top-items {
+  width: 1040px;
+  padding-left: 63px;
+  padding-top: 23px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__search {
+  width: 440px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  opacity: 0.5;
+  color: #000;
+}
+
+.search__icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 18px;
+}
+
+.user-icon {
+  width: 13px;
+  height: 12px;
+  padding-left: 50px;
+  padding-right: 18px;
+}
+
+.compare-icon {
+  width: 10px;
+  height: 10px;
+  padding-left: 180px;
+  padding-right: 18px;
+}
+
+.cart-icon {
+  width: 12px;
+  height: 12px;
+  padding-left: 30px;
+  padding-right: 18px;
+}
+
+.authorization, .compare, .cart {
+  color: #000;
+}
+
+.header__bottom-items {
+  width: 1040px;
+  padding-left: 63px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "gilroy";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header-catalog-link {
+  color: #000;
+}
+
+.expand-icon {
+  padding-left: 12px;
+  color: #000;
+}
+
+.header-delivery-link {
+  padding-left: 270px;
+  color: #000;
+}
+
+.header-warranty-link {
+  color: #000;
+}
+
+.header-contacts-link {
+  padding-left: 140px;
+  color: #000;
+}
