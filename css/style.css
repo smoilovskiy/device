@@ -9,13 +9,33 @@
 }
 
 @font-face {
-  font-family: "gilroy";
+  font-family: "Gilroy - Extra Bold";
   font-style: bold;
   font-weight: 700;
 
   src: local("gilroy"),
        url("/fonts/gilroyextrabold.woff2") format("woff2"),
        url("/fonts/gilroyextrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "opensans";
+  font-style: normal;
+  font-weight: 400;
+
+  src: local("opensans"),
+       url("/fonts/opensans.woff2") format("woff2"),
+       url("/fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+
+  src: local("opensans"),
+       url("/fonts/opensanslight.woff2") format("woff2"),
+       url("/fonts/opensanslight.woff") format("woff");
 }
 
 
@@ -41,7 +61,7 @@ a {
 }
 
 .header-logo {
-  padding-left: 63px;
+  margin-left: 63px;
   margin-top: -17px;
 }
 
@@ -73,29 +93,41 @@ a {
   padding-right: 18px;
 }
 
-.user-icon {
+.header-user-icon {
   width: 13px;
   height: 12px;
-  padding-left: 50px;
+
   padding-right: 18px;
 }
 
-.compare-icon {
+.header-compare-icon {
   width: 10px;
   height: 10px;
-  padding-left: 200px;
+
   padding-right: 18px;
 }
 
-.cart-icon {
+.header-cart-icon {
   width: 12px;
   height: 12px;
-  padding-left: 30px;
+
   padding-right: 18px;
 }
 
 .authorization, .compare, .cart {
   color: #000;
+}
+
+.header-list-item-user {
+  padding-left: 50px;
+}
+
+.header-list-item-compare {
+  padding-left: 200px;
+}
+
+.header-list-item-cart {
+  padding-left: 30px;
 }
 
 .header__bottom-items {
@@ -105,7 +137,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "gilroy";
+  font-family: "Gilroy - Extra Bold";
   font-style: bold;
   font-weight: 700;
   font-size: 20px;
@@ -126,13 +158,25 @@ a {
 }
 
 .header-warranty-link {
-  padding-left: 40px;
+  
   color: #000;
 }
 
 .header-contacts-link {
-  padding-left: 200px;
+  
   color: #000;
+}
+
+.header-list-item-delivery {
+  padding-left: 200px;
+}
+
+.header-list-item-warranty {
+  padding-left: 40px;
+}
+
+.header-list-item-contacts {
+  padding-left: 160px;
 }
 
 .footer {
@@ -144,8 +188,98 @@ a {
 .container {
   margin: 0 auto;
   width: 1160px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__left {
   padding-top: 50px;
 }
+
+.footer-address {
+  padding-top: 30px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.horizontal-line-decor {
+  content: '';
+  background-color: #ffc600;;
+  display: inline-block;
+  height: 7px;
+  width: 80px;
+  vertical-align: middle;
+  margin-top: 70px;
+}
+
+.footer__center-list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 140px;
+}
+
+.footer__right-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer__center {
+  padding-left: 70px;
+}
+
+.footer__center-list-item {
+  padding-left: 50px;
+}
+
+.footer__center-link {
+  color: #FFF;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer__right {
+  padding-top: 50px;
+  position: relative;  
+}
+
+.footer__right-list-item {
+  padding-left: 40px;
+}
+
+.footer__right-link {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.footer-user-icon, .footer-compare-icon, .footer-cart-icon {
+  padding-right: 15px;
+}
+
+.footer-phone-number {
+  padding-top: 30px;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+}
+
+.footer-html-link {
+}
+
+.footer-html-logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
