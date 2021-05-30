@@ -150,6 +150,7 @@ a {
   border: 2px solid #000;
   position: inherit;
   margin-top: -16px;
+  color: #000;
 }
 
 .header__search-link:hover {
