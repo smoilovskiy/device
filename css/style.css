@@ -137,12 +137,12 @@ a {
   background-color: #000;
   height: 2px;
   width: 345px;
-  top: 48px;
   left: -345px;
+  top: 48px;
 }
 
 .header__search-input:focus ~ .header__search-label {
-  display: inline-block;
+  display: flex;
 }
 
 .header__search-link {
