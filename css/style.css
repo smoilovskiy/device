@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "gilroy";
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
 
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: "opensans";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
 
@@ -40,7 +40,7 @@
 
 
 body {
-  font-family: "gilroy", "Arial", sans-serif;
+  font-family: "Gilroy", "Gilroy - Extra Bold", "Open Sans", "Arial", sans-serif;
   margin: 0;
 }
 
