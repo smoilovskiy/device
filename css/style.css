@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: local("gilroy"),
+  src: local("Gilroy"),
        url("/images/header-logo.png") format("woff2"),
        url("/fonts/gilroylight.woff") format("woff");
 }
@@ -13,7 +13,7 @@
   font-style: bold;
   font-weight: 700;
 
-  src: local("gilroy"),
+  src: local("Gilroy"),
        url("/fonts/gilroyextrabold.woff2") format("woff2"),
        url("/fonts/gilroyextrabold.woff") format("woff");
 }
