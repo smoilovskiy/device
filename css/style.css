@@ -599,42 +599,110 @@ a {
   background-size: 100% 40px;
 }
 
+
+
 .slider__input1 {
+  z-index: 1;
   position: absolute;
   top: 327px;
   left: 994px;
-
-  z-index: 2;
+  width: 1;
+  height: 1;
 }
 
 .slider__input2 {
+  z-index: 1;
   position: absolute;
   top: 327px;
   left: 1027px;
-  z-index: 2;
+  width: 1;
+  height: 1;
 }
 
 .slider__input3 {
+  z-index: 1;
   position: absolute;
   top: 327px;
   left: 1060px;
-  z-index: 2;
+  width: 1;
+  height: 1;
 }
 
-.slider__label {
-  width: 1px;
-  height: 1px;
+
+.slider__label1 {
+  position: absolute;
+  top: 327px;
+  left: 994px;
 }
 
-.slider__input1:checked + .slider__label + .slide, 
-.slider__input2:checked + .slider__label + .slide,
-.slider__input3:checked + .slider__label + .slide {
+.slider__label2 {
+  position: absolute;
+  top: 327px;
+  left: 1027px;
+}
+
+.slider__label3 {
+  position: absolute;
+  top: 327px;
+  left: 1060px;
+}
+
+.slider__label1::before,
+.slider__label2::before,
+.slider__label3::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+}
+
+.slider__input1:checked + .slider__label1 + .slide, 
+.slider__input2:checked + .slider__label2 + .slide,
+.slider__input3:checked + .slider__label3 + .slide {
 	display: flex;
 }
 
-.slider__input:checked + .slider__label {
-
+.slider__input1:checked + .slider__label1::after {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  border: 2px solid #C1C1C1;
+  background-color: whitesmoke;
 }
+
+.slider__input2:checked + .slider__label2::after {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  border: 2px solid #C1C1C1;
+  background-color: whitesmoke;
+}
+
+.slider__input3:checked + .slider__label3::after {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  border: 2px solid #C1C1C1;
+  background-color: whitesmoke;
+}
+
 
 .slide-specification {
   display: flex;
