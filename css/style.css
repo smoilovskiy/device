@@ -594,225 +594,47 @@ a {
   background-repeat: no-repeat;
 }
 
-.slider__input {
-  position: relative;
-  margin: 12px;
+.slide-link:hover {
+  transition: 0.3s;
+  background-size: 100% 40px;
 }
 
+.slider__input1 {
+  position: absolute;
+  top: 327px;
+  left: 994px;
+
+  z-index: 2;
+}
+
+.slider__input2 {
+  position: absolute;
+  top: 327px;
+  left: 1027px;
+  z-index: 2;
+}
+
+.slider__input3 {
+  position: absolute;
+  top: 327px;
+  left: 1060px;
+  z-index: 2;
+}
 
 .slider__label {
   width: 1px;
   height: 1px;
 }
 
-
-/* Display */
-
-.slider__input:checked + .slider__label + .slide {
+.slider__input1:checked + .slider__label + .slide, 
+.slider__input2:checked + .slider__label + .slide,
+.slider__input3:checked + .slider__label + .slide {
 	display: flex;
 }
 
-/* Current */
 .slider__input:checked + .slider__label {
-	background: #C00;
+
 }
-
-/* .slider-container {
-  width: 1160px;
-  height: 486px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.slide {
-  display: none;
-  background: linear-gradient(#f7e296,#f7e296);
-  background-size: 100% 114px;
-  background-position: left top;
-  background-repeat: no-repeat;
-}
-
-
-
-.slide__left {
-  width: 600px;
-  margin: 0;
-}
-
-.slide__right {
-  width: 560px;
-  margin: 0;
-}
-
-.slide1__img {
-  margin-left: 90px;
-}
-
-.slide1__decor {
-  margin-top: 0;
-  line-height: 0;
-}
-
-.slide1__decor::before {
-  content: '';
-  background-color: #FFF;
-  display: inline-block;
-  height: 7px;
-  width: 100px;
-  vertical-align: middle;
-  margin-top: 40px;
-}
-
-.slide1__decor::after {
-  display: inline-block;
-  content: '01';
-  color: #FFF;
-  font-size: 180px;
-  font-family: "Gilroy - Extra Bold";
-  font-style: bold;
-  font-weight: 700;
-  margin-left: 330px;
-  margin-top: 30px;
-}
-
-.slide2__decor {
-  margin-top: 0;
-  line-height: 0;
-}
-
-.slide2__decor::before {
-  content: '';
-  background-color: #FFF;
-  display: inline-block;
-  height: 7px;
-  width: 100px;
-  vertical-align: middle;
-  margin-top: 40px;
-}
-
-.slide2__decor::after {
-  display: inline-block;
-  content: '02';
-  color: #FFF;
-  font-size: 180px;
-  font-family: "Gilroy - Extra Bold";
-  font-style: bold;
-  font-weight: 700;
-  margin-left: 330px;
-  margin-top: 30px;
-}
-
-.slide3__decor {
-  margin-top: 0;
-  line-height: 0;
-}
-
-.slide3__decor::before {
-  content: '';
-  background-color: #FFF;
-  display: inline-block;
-  height: 7px;
-  width: 100px;
-  vertical-align: middle;
-  margin-top: 40px;
-}
-
-.slide3__decor::after {
-  display: inline-block;
-  content: '03';
-  color: #FFF;
-  font-size: 180px;
-  font-family: "Gilroy - Extra Bold";
-  font-style: bold;
-  font-weight: 700;
-  margin-left: 330px;
-  margin-top: 30px;
-}
-
-.slider-text-big {
-  color: #000;
-  font-size: 48px;
-  font-family: "Gilroy - Extra Bold";
-  font-style: bold;
-  font-weight: 700;
-  margin-top: -70px;
-}
-
-.slider-text-small {
-  color: #000;
-  font-size: 15px;
-  line-height: 30px;
-  margin-top: -30px;
-}
-
-.slide-controls {
-  display: flex;
-}
-
-.slide-link {
-  color: #000;
-  font-size: 17px;
-  font-family: "Gilroy - Extra Bold";
-  font-style: bold;
-  font-weight: 400;
-  padding: 15px 43px 13px 43px;
-  border: 1px solid transparent;
-  margin-top: 23px;
-  margin-bottom: 24px;
-  background: linear-gradient(#f0c52e,#f0c52e);
-  background-size: 100% 8px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-*/
-
-/* .slide-link:hover {
-  /* box-shadow: inset 0 15px #f0c52e; */
-  /* background-color: #f0c52e; */
-  /* box-shadow: #f0c52e, #f0c52e;
-  transition: 0.5s;
-} */
-
-/* .slider-selector {
-  position: absolute;
-  left: 970px;
-  top: 328px;
-}
-
-.slider-selector__label {
-  position: relative;
-  margin: 11px;
-}
-
-.slider-selector__input {
-  width: 1px;
-  height: 1px;
-} */
-
-/* .slider-selector__label::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: '';
-  width: 14px;
-  height: 14px;
-  border-radius: 10px;
-  border: 2px solid whitesmoke;
-  background-color: whitesmoke;
-}
-
-.slider-selector__input:checked + .slider-selector__label::after {
-  display: block;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 10px;
-  border: 2px solid #C1C1C1;
-  background-color: whitesmoke;
-} */
 
 .slide-specification {
   display: flex;
