@@ -736,3 +736,47 @@ a {
   margin-left: 30px;
   margin-top: 68px;
 }
+
+.categories {
+  margin: 110px auto;
+  width: 1160px;
+  height: 310px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  background-color: #f7e296;
+  margin-bottom: 32px;
+}
+
+.categories-name {
+  color: #000;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.categories-item__img {
+
+}
+
+.categories-link:hover .categories-item {
+  background-color: #f0c52e;
+}
+
+.categories-link:active .categories-name {
+  opacity: 0.5;
+}
+
+.categories-link:active .categories-item__img {
+  opacity: 0.3;
+}
