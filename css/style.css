@@ -586,7 +586,7 @@ a {
   font-weight: 400;
   padding: 15px 43px 13px 43px;
   border: 1px solid transparent;
-  margin-top: 23px;
+  margin-top: 22px;
   margin-bottom: 24px;
   background: linear-gradient(#f0c52e,#f0c52e);
   background-size: 100% 8px;
@@ -602,46 +602,46 @@ a {
 
 
 .slider__input1 {
-  z-index: 1;
   position: absolute;
   top: 327px;
   left: 994px;
-  width: 1;
-  height: 1;
+  width: 0;
+  height: 0;
 }
 
 .slider__input2 {
-  z-index: 1;
   position: absolute;
   top: 327px;
   left: 1027px;
-  width: 1;
-  height: 1;
+  width: 0;
+  height: 0;
 }
 
 .slider__input3 {
-  z-index: 1;
   position: absolute;
   top: 327px;
   left: 1060px;
-  width: 1;
-  height: 1;
+  width: 0;
+  height: 0;
 }
 
 
 .slider__label1 {
+  z-index: 1;
   position: absolute;
   top: 327px;
   left: 994px;
 }
 
 .slider__label2 {
+  z-index: 1;
   position: absolute;
   top: 327px;
   left: 1027px;
 }
 
 .slider__label3 {
+  z-index: 1;
   position: absolute;
   top: 327px;
   left: 1060px;
@@ -651,14 +651,14 @@ a {
 .slider__label2::before,
 .slider__label3::before {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 3px;
+  left: 5px;
   content: '';
-  width: 14px;
-  height: 14px;
+  width: 11px;
+  height: 11px;
   border-radius: 10px;
-  border: 2px solid whitesmoke;
-  background-color: whitesmoke;
+  border: 1px solid grey;
+
 }
 
 .slider__input1:checked + .slider__label1 + .slide, 
@@ -669,37 +669,37 @@ a {
 
 .slider__input1:checked + .slider__label1::after {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 7px;
+  left: 9px;
   content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 10px;
-  border: 2px solid #C1C1C1;
+  width: 3px;
+  height: 3px;
+  border-radius: 5px;
+  border: 1px solid grey;
   background-color: whitesmoke;
 }
 
 .slider__input2:checked + .slider__label2::after {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 7px;
+  left: 9px;
   content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 10px;
-  border: 2px solid #C1C1C1;
+  width: 3px;
+  height: 3px;
+  border-radius: 5px;
+  border: 1px solid grey;
   background-color: whitesmoke;
 }
 
 .slider__input3:checked + .slider__label3::after {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 7px;
+  left: 9px;
   content: '';
-  width: 4px;
-  height: 4px;
-  border-radius: 10px;
-  border: 2px solid #C1C1C1;
+  width: 3px;
+  height: 3px;
+  border-radius: 5px;
+  border: 1px solid grey;
   background-color: whitesmoke;
 }
 
