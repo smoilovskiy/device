@@ -342,11 +342,11 @@ a {
 }
 
 .footer__left {
-  padding-top: 50px;
+  padding-top: 65px;
 }
 
 .footer-address {
-  padding-top: 30px;
+  padding-top: 15px;
   color: #FFF;
   font-family: "Open Sans";
   font-size: 15px;
@@ -361,13 +361,13 @@ a {
   height: 7px;
   width: 80px;
   vertical-align: middle;
-  margin-top: 70px;
+  margin-top: 67px;
 }
 
 .footer__center-list {
   list-style-type: none;
   display: flex;
-  margin-top: 140px;
+  margin-top: 138px;
 }
 
 .footer__right-list {
@@ -376,19 +376,20 @@ a {
 }
 
 .footer__center {
-  padding-left: 70px;
+  padding-left: 85px;
 }
 
 .footer__center-list-item {
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 .footer__center-link {
   color: #FFF;
   font-family: "Gilroy - Extra Bold";
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 4px;
 }
 
 .footer__right {
@@ -396,8 +397,12 @@ a {
   position: relative;  
 }
 
+.footer__right-list {
+  padding: 0;
+}
+
 .footer__right-list-item {
-  padding-left: 40px;
+  padding-left: 38px;
 }
 
 .footer__right-link {
@@ -409,11 +414,11 @@ a {
 }
 
 .footer-user-icon, .footer-compare-icon, .footer-cart-icon {
-  padding-right: 15px;
+  padding-right: 14px;
 }
 
 .footer-phone-number {
-  padding-top: 30px;
+  padding-top: 32px;
   color: #FFF;
   font-family: "Open Sans";
   font-size: 15px;
@@ -428,18 +433,19 @@ a {
 .footer-html-logo {
   position: absolute;
   right: 0;
-  bottom: 15px;
+  bottom: 18px;
 }
 
 .social {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 48px;
+  padding-left: 50px;
 }
 
 .social-item {
-  padding-left: 20px;
+  padding-left: 22px;
 }
 
 
@@ -451,12 +457,12 @@ a {
   position: relative;
 }
 
+
 .slide {
   background: linear-gradient(#f7e296,#f7e296);
   background-size: 100% 114px;
   background-position: left top;
   background-repeat: no-repeat;
-
 	position: absolute;
 	top: 0;
 	left: 0;
