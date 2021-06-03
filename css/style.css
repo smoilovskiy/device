@@ -894,14 +894,30 @@ a {
   background-size: 100% 40px;
 }
 
-/* .advantages__input1:checked + .advantages__label1 {
-  padding-right: 140px;
+.advantages__input1:checked + .advantages__label1 {
+  padding-right: 135px;
+  background-size: 100% 40px;
   background-color: #000;
+  background: linear-gradient(#000,#000);
   color: #f7e184;
 }
 
-.advantages__input2:checked + .advantages__label2,
-.advantages__input3:checked + .advantages__label3 */
+.advantages__input2:checked + .advantages__label2 {
+  padding-right: 140px;
+  background-size: 100% 40px;
+  background-color: #000;
+  background: linear-gradient(#000,#000);
+  color: #f7e184;
+}
+
+.advantages__input3:checked + .advantages__label3 {
+  padding-right: 155px;
+  background-size: 100% 40px;
+  background-color: #000;
+  background: linear-gradient(#000,#000);
+  color: #f7e184;
+}
+
 
 .advantages__input1:checked ~ .advantages-slide1 {
   display: flex;
