@@ -1336,7 +1336,8 @@ a {
 } 
 
 .write-us-name__input:focus, .write-us-email__input:focus, .write-us-message__textarea:focus {
-  border: 2px solid #ffc600;
+  outline: none;
+  border-color: #ffc600;
 } 
 
 .write-us-message__textarea {
