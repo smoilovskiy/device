@@ -1355,7 +1355,7 @@ a {
 .modal-map-background:target {
   opacity: 1; 
   pointer-events: auto;
-  }
+}
   
 .modal-map-window {
   background: url("../images/map-big.png") no-repeat 50% 50%;
@@ -1364,20 +1364,3 @@ a {
   min-height: 540px;
   box-shadow: 0 20px 40px rgb(0 0 0 / 40%);
 }
-
-/* .close-cross__image {
-  position: absolute;
-  top: 100px;
-  left: 1160px;
-  width: 55px;
-  height: 55px;
-  opacity: 0.5;
-}
-
-.close-cross__image:hover {
-  opacity: 1;
-}
-
-.close-cross__image:active {
-  opacity: 0.25;
-} */
