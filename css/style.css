@@ -1233,6 +1233,7 @@ a {
   }
   
 .write-us-window {
+  position: relative;
   margin: 5% auto;
   width: 960px;
   min-height: 553px;
@@ -1269,8 +1270,8 @@ a {
 
 .close-cross__image {
   position: absolute;
-  top: 100px;
-  left: 1160px;
+  top: 25px;
+  left: 880px;
   width: 55px;
   height: 55px;
   opacity: 0.5;
@@ -1374,6 +1375,7 @@ a {
 }
   
 .modal-map-window {
+  position: relative;
   background: url("../images/map-big.png") no-repeat 50% 50%;
   margin: 5% auto;
   width: 960px;
