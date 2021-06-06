@@ -269,8 +269,48 @@
           <p class="info-text-big">Контакты</p>
           <p class="info-text-small">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>
             проверить работоспособность покупки. Всякое бывает.</p>
-            <div class="contact-map-preview"></div>
-            <a class="contact-link" href="##">НАПИШИТЕ НАМ</a>
+            <a class="modal-map" href="#modal-map"><div class="contact-map-preview"></div></a>
+            <a class="contact-link" href="#write-us">НАПИШИТЕ НАМ</a>
+        </div>
+      </div>
+
+      <div id="write-us" class="write-us-background">
+        <div class="write-us-window">
+          <div class="write-us-container">
+              <a class="close-cross" href="##">
+                <img class="close-cross__image" src="images/icon/close-cross.png" alt="close-cross">
+              </a>
+            <form class="leave-message">
+              <div class="write-us-name-and-email">
+                <div class="write-us-name">
+                  <label class="write-us-name__label">Ваше имя:
+                    <input class="write-us-name__input" type="text" name="name" placeholder="Имя Фамилия">
+                  </label>
+  
+                </div>
+                <div class="write-us-email">
+                  <label class="write-us-email__label">Ваш email:
+                    <input class="write-us-email__input" type="email" name="email" placeholder="email@example.com">
+                  </label>
+                </div>
+              </div>
+  
+              <div class="write-us-message">
+                <label class="write-us-message__label">Текст письма:
+                  <textarea class="write-us-message__textarea" name="message" placeholder="В свободной форме"></textarea>
+                </label>
+              </div>
+              <a class="write-us-window__link " href="##">ОТПРАВИТЬ</a>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-map" class="modal-map-background">
+        <div class="modal-map-window">
+              <a class="close-cross" href="##">
+                <img class="close-cross__image" src="images/icon/close-cross.png" alt="close-cross">
+              </a>
         </div>
       </div>
 

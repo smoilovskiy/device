@@ -1034,13 +1034,13 @@ a {
 }
 
 .brand3 {
-  background: url("../images/brand3.png") no-repeat 50% 50%;
+  background: url("../images/brand3.png");
   width: 260px;
   height: 100px;
 }
 
 .brand4 {
-  background: url("../images/brand4.png") no-repeat 50% 50%;
+  background: url("../images/brand4.png");
   width: 260px;
   height: 100px;
 }
@@ -1073,6 +1073,7 @@ a {
   margin: 95px auto;
   width: 1160px;
   display: flex;
+  position: relative;
 }
 
 .about-us {
@@ -1212,3 +1213,171 @@ a {
 .contact-link:active {
   color: gray;
 }
+
+
+.write-us-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  }
+  
+.write-us-background:target {
+  opacity: 1; 
+  pointer-events: auto;
+  }
+  
+.write-us-window {
+  margin: 5% auto;
+  width: 960px;
+  min-height: 553px;
+  background-color: #FFF;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 40%);
+  }
+
+.write-us-container {
+  padding: 80px 100px 80px 100px;
+}
+
+.write-us-window__link {
+  letter-spacing: 4.2px;
+  color: #000;
+  font-size: 17px;
+  font-family: "Gilroy - Extra Bold";
+  font-style: bold;
+  font-weight: 400;
+  padding: 14px 36px 14px 41px;
+  border: 1px solid transparent;
+  margin-top: 22px;
+  margin-bottom: 24px;
+  background: linear-gradient(#f0c52e,#f0c52e);
+  background-size: 100% 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.write-us-window__link:hover {
+  transition: 0.3s;
+  background-size: 100% 40px;
+} 
+
+.close-cross__image {
+  position: absolute;
+  top: 100px;
+  left: 1160px;
+  width: 55px;
+  height: 55px;
+  opacity: 0.5;
+}
+
+.close-cross__image:hover {
+  opacity: 1;
+}
+
+.close-cross__image:active {
+  opacity: 0.25;
+}
+
+.write-us-name-and-email {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 22px;
+}
+
+.write-us-name {
+  padding-right: 40px;
+}
+
+.write-us-email {
+  text-align: left;
+}
+
+.write-us-name__label, .write-us-email__label, .write-us-message__label {
+  color: #000;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 40px;
+}
+
+.write-us-name__label, .write-us-name__input, 
+.write-us-email__label, .write-us-email__input,
+.write-us-message__label, .form-textarea {
+  display: block;
+}
+
+.write-us-message {
+  padding-bottom: 63px;
+}
+
+.write-us-name__input, .write-us-email__input {
+  width: 340px;
+  height: 50px;
+  border: 2px solid #D7DCDE;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 16px;
+  color : #cfcfcf
+}
+
+.write-us-name__input:hover, .write-us-email__input:hover, .form-textarea:hover {
+  border-color: #B4B9BB;
+} 
+
+.write-us-message__textarea {
+  width: 740px;
+  height: 156px;
+  border: 2px solid #D7DCDE;
+  border-radius: 3px;
+  padding-top: 13px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+
+.modal-map-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none; 
+}
+  
+.modal-map-background:target {
+  opacity: 1; 
+  pointer-events: auto;
+  }
+  
+.modal-map-window {
+  background: url("../images/map-big.png") no-repeat 50% 50%;
+  margin: 5% auto;
+  width: 960px;
+  min-height: 540px;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 40%);
+}
+
+/* .close-cross__image {
+  position: absolute;
+  top: 100px;
+  left: 1160px;
+  width: 55px;
+  height: 55px;
+  opacity: 0.5;
+}
+
+.close-cross__image:hover {
+  opacity: 1;
+}
+
+.close-cross__image:active {
+  opacity: 0.25;
+} */
