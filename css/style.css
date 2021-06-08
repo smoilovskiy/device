@@ -184,7 +184,7 @@ a {
   width: 12px;
   height: 12px;
 
-  padding-right: 18px;
+  padding-right: 5px;
 }
 
 .authorization, .compare, .cart {
@@ -196,7 +196,7 @@ a {
 }
 
 .header-list-item-compare {
-  padding-left: 205px;
+  padding-left: 135px;
 }
 
 .header-list-item-cart {
@@ -1340,6 +1340,8 @@ a {
 .write-us-name__input:focus, .write-us-email__input:focus, .write-us-message__textarea:focus {
   outline: none;
   border-color: #ffc600;
+  background: #FFF;
+  color: #000;
 } 
 
 .write-us-message__textarea {
@@ -1480,7 +1482,7 @@ a {
 
 .filter {
   margin: 0;
-  width: 148px;
+  width: 200px;
   border-radius: 3px;
   padding-bottom: 40px;
 }
@@ -1502,8 +1504,28 @@ a {
 
 .filter-range-bar {
   height: 2px;
-  width: 80%;
-  background-color: #00ca74;
+  width: 55%;
+  background-color: #91c92f;
+}
+
+.filter-range-value-left {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  color: #000;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.filter-range-value-right {
+  position: absolute;
+  top: 2px;
+  left: 95px;
+  color: #000;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .filter-range-handle {
