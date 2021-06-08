@@ -1897,7 +1897,7 @@ a {
   justify-content: space-between;
 }
 
-.page-select-prev {
+.page-select-prev-link {
   width: 125px;
   height: 70px;
   display: flex;
@@ -1911,7 +1911,7 @@ a {
   padding-left: 3px;
 }
 
-.page-select-next {
+.page-select-next-link {
   width: 125px;
   height: 70px;
   display: flex;
@@ -1925,6 +1925,14 @@ a {
   padding-right: 3px;
 }
 
+.page-select-prev-link:active {
+  opacity: 0.3;
+}
+
+.page-select-next-link:active {
+  opacity: 0.3;
+}
+
 .page-number {
   width: 85px;
   height: 70px;
@@ -1933,7 +1941,7 @@ a {
   justify-content: space-between;
 }
 
-.page {
+.page-link {
   color: #000;
   font-family: "Gilroy - Extra Bold";
   font-size: 16px;
@@ -1941,10 +1949,22 @@ a {
   opacity: 0.3;
 }
 
-.page:hover {
+.page-link:hover {
   opacity: 0.6;
 }
 
-.page:active {
+.page-link:active {
   opacity: 1;
+}
+
+.page-link:focus {
+  opacity: 1;
+}
+
+.page-select-prev:hover {
+  background-color: #dbdbdb;
+}
+
+.page-select-next:hover {
+  background-color: #dbdbdb;
 }
