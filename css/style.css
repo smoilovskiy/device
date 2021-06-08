@@ -1776,3 +1776,71 @@ a {
   opacity: 1;
 }
 
+.catalog-content-wrapper {
+  width: 760px;
+  margin: 70px 0 50px 72px;
+}
+
+.catalog-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.product-item {
+  width: 360px;
+  height: 460px;
+ 
+}
+
+.product-item:hover {
+  opacity: 0.7;
+}
+
+.product-item-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item__name {
+  color: #000;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+.product-item__price {
+  color: #464646;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.product-item1-img {
+  width: 360px;
+  height: 380px;
+  background: url("../images/item1.jpg") no-repeat 50% 50%;
+}
+
+.product-item2-img {
+  width: 360px;
+  height: 380px;
+  background: url("../images/item2.jpg") no-repeat 50% 50%;
+}
+
+.product-item3-img {
+  width: 360px;
+  height: 380px;
+  background: url("../images/item3.jpg") no-repeat 50% 50%;
+}
+
+.product-item4-img {
+  width: 360px;
+  height: 380px;
+  background: url("../images/item4.jpg") no-repeat 50% 50%;
+}
+
