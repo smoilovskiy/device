@@ -1815,7 +1815,8 @@ a {
   position: relative;
 }
 
-.new-product {
+.new-product::after {
+  content: 'NEW';
   position: absolute;
   display: flex;
   align-items: center;
