@@ -1438,7 +1438,6 @@ a {
   display: flex;
   margin: 5px auto;
   width: 1440px;
-  height: 1200px;
 }
 
 .catalog-filter {
@@ -1844,3 +1843,64 @@ a {
   background: url("../images/item4.jpg") no-repeat 50% 50%;
 }
 
+.page-select {
+  margin-top: 37px;
+  margin-bottom: 75px;
+  background-color: #EEE;
+  width: 760px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-select-prev {
+  width: 125px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3.5px;
+  padding-left: 3px;
+}
+
+.page-select-next {
+  width: 125px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3.5px;
+  padding-right: 3px;
+}
+
+.page-number {
+  width: 85px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page {
+  color: #000;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.3;
+}
+
+.page:hover {
+  opacity: 0.6;
+}
+
+.page:active {
+  opacity: 1;
+}
