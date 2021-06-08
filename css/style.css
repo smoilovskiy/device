@@ -1815,6 +1815,23 @@ a {
   position: relative;
 }
 
+.new-product {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 56px;
+  height: 56px;
+  border: 2px solid #464646;
+  border-radius: 50px;
+  top: 30px;
+  right: 27px;
+  font-family: "Gilroy - Extra Bold";
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.2;
+}
+
 .product-item__over {
   position: absolute;
   display: none;
