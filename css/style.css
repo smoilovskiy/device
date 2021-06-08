@@ -1787,13 +1787,66 @@ a {
 }
 
 .product-item {
+  
   width: 360px;
   height: 460px;
- 
+  position: relative;
 }
 
-.product-item:hover {
-  opacity: 0.7;
+.product-item__over {
+  position: absolute;
+  display: none;
+  top: 180px;
+  left: 0;
+  width: 360px;
+  height: 460px;
+  text-align: center;
+}
+
+.product-link {
+  letter-spacing: 4.2px;
+  color: #000;
+  font-size: 17px;
+  font-family: "Gilroy - Extra Bold";
+  font-style: bold;
+  font-weight: 400;
+  padding: 15px 40px 13px 40px;
+  border: 1px solid transparent;
+  margin-top: 22px;
+  margin-bottom: 24px;
+  background: linear-gradient(#f0c52e,#f0c52e);
+  background-size: 100% 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-link:hover {
+  transition: 0.3s;
+  background-size: 100% 40px;
+}
+  
+.product-link:active {
+  color: gray;
+}
+
+.add-to-compare {
+  line-height: 30px;
+}
+
+.add-to-compare-link {
+  opacity: 0.5;
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.add-to-compare-link:hover {
+  opacity: 1;
+}
+
+.add-to-compare-link:active {
+  opacity: 0.3;
 }
 
 .product-item-info {
@@ -1807,7 +1860,7 @@ a {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.3px;
-  padding-top: 15px;
+  padding-top: 10px;
   line-height: 24px;
 }
 
@@ -1816,31 +1869,22 @@ a {
   font-family: Gilroy;
   font-size: 16px;
   font-weight: 300;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
-.product-item1-img {
+.product-preview {
   width: 360px;
   height: 380px;
-  background: url("../images/item1.jpg") no-repeat 50% 50%;
+  padding: 0;
 }
 
-.product-item2-img {
-  width: 360px;
-  height: 380px;
-  background: url("../images/item2.jpg") no-repeat 50% 50%;
+.product-item:hover .product-preview {
+  opacity: 0.5;
 }
 
-.product-item3-img {
-  width: 360px;
-  height: 380px;
-  background: url("../images/item3.jpg") no-repeat 50% 50%;
-}
-
-.product-item4-img {
-  width: 360px;
-  height: 380px;
-  background: url("../images/item4.jpg") no-repeat 50% 50%;
+.product-item:hover .product-item__over {
+  display: block;
+  transition: 0.3s;
 }
 
 .page-select {
